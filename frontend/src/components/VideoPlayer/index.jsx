@@ -16,7 +16,7 @@ import ModeSelectionPopup from "./ModeSelectionPopup";
 import AttentiveOverlay from "./AttentiveOverlay";
 import PasswordPopup from "./PasswordPopup";
 import Suggestions from "../common/Suggestions";
-import Footer from "../common/Footer";
+
 
 export default function VideoPlayer() {
     const [url, setUrl] = useState("");
@@ -286,7 +286,7 @@ export default function VideoPlayer() {
 
                     <Suggestions showIdlePlaceholder={showSuggestions} />
 
-                    <Footer />
+                    
                 </div>
             </div>
         </>
